@@ -1,0 +1,723 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="assets/animate.css" />
+    <link rel="stylesheet" type="text/css" href="assets/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="assets/custom.css" />
+    <title>UIECC</title>
+  </head>
+
+  <body>
+    <div id="loader" class="loader orange-color">
+      <div class="loader-container">
+        <div class="loader-icon">
+          <img src="assets/images/pre-logo.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <header class="u-header">
+      <div class="topbar-area inner-part d-none d-md-block">
+        <div class="container">
+          <div class="row y-middle">
+            <div class="col-md-7">
+              <ul class="topbar-contact">
+                <li class="border-left-1">
+                  <i class="flaticon-email"></i>
+                  <a href="mailto:info@uiecc.cm">info@uiecc.cm</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 text-right">
+              <ul class="topbar-right">
+                <li class="login-register">
+                  <i class="fa fa-sign-in"></i>
+                  <a href="login.html">Se connecter</a>/<a href="register.html"
+                    >S'enregistrer</a
+                  >
+                </li>
+                <li class="btn-part">
+                  <a class="apply-btn" href="#">Inscrivez-vous</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="u-navbar d-flex justify-content-md-center position-absolute w-100"
+      >
+        <nav class="navbar bg-primary navbar-expand-lg nav-underline">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars fs-2 text-white"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-start offcanvas-shrink"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <div class="d-flex align-items-center">
+                <img src="./assets/logo.png" alt="" class="u-navbar-brand" />
+                <h5
+                  class="offcanvas-title u-navbar-title fs-2 fw-bold ms-2"
+                  id="offcanvasNavbarLabel"
+                >
+                  UIECC
+                </h5>
+              </div>
+              <button
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="close"
+              ></button>
+            </div>
+            <div class="offcanvas-body justify-content-center text-uppercase">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link  mx-lg-3"
+                    aria-current="page"
+                    href="./home.html"
+                    >Acceuil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active mx-lg-3" href="#">UIECC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="./esign.html">ESIGN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active mx-lg-3" href="/projet.html">Projets etudiant</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="#"
+                    >Informations utiles aux usagers</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <form role="search" class="mx-lg-3">
+          <input class="form-control form-control-sm rounded rounded-pill u-nav-search u-input-icon" type="search"
+            placeholder="&#xf002" aria-label="rechercher" >
+        </form>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="u-carousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div
+          class="carousel-indicators carousel-indicatou-left carousel-indicatou-round"
+        >
+          <div class="d-none d-md-flex flex-column me-1">
+            <button
+              type="button"
+              data-bs-target="#u-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#u-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="u-carousel-item"
+              style="background-image: url(assets/images/home/slider-1.jpg)"
+            ></div>
+          </div>
+
+          <div class="carousel-item">
+            <div
+              class="u-carousel-item"
+              style="background-image: url(assets/images/home/slider-2.jpg)"
+            ></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <h1
+          class="u-text-primary text-uppercase text-center fs-1 fw-bold mt-5 wow fadeInUp"
+          data-wow-delay="400ms"
+          data-wow-duration="2000ms"
+        >
+          COORDINATION ADMINISTRATIVE PROVISOIRE (CAAP)
+        </h1>
+        <div class="row mt-4">
+          <div
+            class="col-auto wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            <div class="float-end video-wrap">
+              <a
+                class="popup-videos d-flex flex-column align-items-center"
+                href="https://www.youtube.com/watch?v=atMUy_bPoQI"
+              >
+                <div class="mt-auto">
+                  <i class="fa fa-play"></i>
+                </div>
+                <div class="title mt-auto mx-3">
+                  <p class="mb-2 text-uppercase text-end fw-bold fst-italic">
+                    Visite guidée de l'uiecc
+                  </p>
+                  <p class="mb-2 text-end desc">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Sed, ducimus! Lorem ipsum, dolor sit amet consectetur
+                    adipisicing elit. Sed, ducimus!
+                  </p>
+                </div>
+              </a>
+            </div>
+            <div class="">
+              <h2 class="fs-2 fw-semibold pt-sm-3 mb-0">
+                Discours du coordonateur
+              </h2>
+              <h2 class="fs-5 fw-light text-muted">
+                Université inter-etats congo-cameroun
+              </h2>
+              <hr class="my-3" />
+              <div class="read-more-section">
+                <p
+                  class="text-justify wow fadeInUp"
+                  data-wow-delay="400ms"
+                  data-wow-duration="2000ms"
+                >
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Molestiae velit excepturi non quisquam totam quae repellendus
+                  enim deleniti. Sequi quae itaque temporibus voluptates
+                  accusamus minus ratione enim dignissimos dicta dolores ut ad
+                  rem fugit sunt ipsam natus dolor odit nesciunt, reprehenderit
+                  exercitationem libero. Nam iure a cupiditate eaque vel
+                  explicabo ullam ipsum natus, magni perferendis
+                  <span>...</span>
+                  <span class="d-none">
+                    Sequi quae itaque temporibus voluptates accusamus minus
+                    ratione enim dignissimos dicta dolores ut ad rem fugit sunt
+                    ipsam natus dolor odit nesciunt, reprehenderit
+                    exercitationem libero. Nam iure a cupiditate eaque vel
+                    explicabo ullam ipsum natus, magni perferendis eius nobis
+                    quas maiores non rem numquam deleniti accusantium,
+                    blanditiis odit facilis dolores minima sit illo. Aut, eos
+                    repudiandae numquam maiores eligendi iusto alias cum animi
+                    natus, distinctio quam iure harum rerum quod reiciendis qui.
+                    Perspiciatis odit reprehenderit repudiandae id accusantium
+                    rem, fugit officia perferendis?Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit. Molestiae velit excepturi non
+                    quisquam totam quae repellendus enim deleniti. Sequi quae
+                    itaque temporibus voluptates accusamus minus ratione enim
+                    dignissimos dicta dolores ut ad rem fugit sunt ipsam natus
+                    dolor odit nesciunt, reprehenderit exercitationem libero.
+                    Nam iure a cupiditate eaque vel explicabo ullam ipsum natus,
+                    magni perferendis eius nobis quas maiores non rem numquam
+                    deleniti accusantium, blanditiis odit facilis dolores minima
+                    sit illo. Aut, eos repudiandae numquam maiores eligendi
+                    iusto alias cum animi natus, distinctio quam iure harum
+                    rerum quod reiciendis qui. Perspiciatis odit reprehenderit
+                    repudiandae id accusantium rem, fugit officia perferendis?
+                  </span>
+                  <a role="button" class="read-more-btn">lire la suite</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="u-blog" class="u-blog bg-body-tertiary pt-3 style2 mt-4">
+        <div class="widget widget-text-heading u-fa vc-info default">
+          <h3 class="title">Actualités</h3>
+          <div class="description">
+            Retrouvez toutes les informations et activités en temps réel
+          </div>
+        </div>
+        <div class="widget-title-spacing"></div>
+        <div class="container">
+          <div
+            class="u-carousel owl-carousel owl-loaded owl-drag"
+            data-loop="true"
+            data-items="3"
+            data-margin="30"
+            data-autoplay="true"
+            data-hoverpause="true"
+            data-autoplay-timeout="5000"
+            data-smart-speed="800"
+            data-dots="false"
+            data-nav="false"
+            data-nav-speed="false"
+            data-center-mode="false"
+            data-mobile-device="1"
+            data-mobile-device-nav="false"
+            data-mobile-device-dots="false"
+            data-ipad-device="2"
+            data-ipad-device-nav="false"
+            data-ipad-device-dots="false"
+            data-ipad-device2="1"
+            data-ipad-device-nav2="false"
+            data-ipad-device-dots2="false"
+            data-md-device="3"
+            data-md-device-nav="false"
+            data-md-device-dots="false"
+          >
+            <div class="blog-item">
+              <div class="image-part">
+                <img src="assets/images/home/actu-1.jpg" alt="" />
+              </div>
+              <div class="blog-content new-style">
+                <ul class="blog-meta">
+                  <li><i class="fa fa-calendar"></i>Decembre 15, 2022</li>
+                </ul>
+                <h3 class="title">
+                  <a href="blog-single.html">Décret N°11/00/21</a>
+                </h3>
+                <div class="desc">
+                  Portant nomination des cadres de l'université inter-etats
+                  congo-cameroun
+                </div>
+                <ul class="blog-bottom">
+                  <li class="btn-part">
+                    <a class="readon-arrow" href="#">Lire la suite</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="blog-item">
+              <div class="image-part">
+                <img src="assets/images/home/actu-2.jpg" alt="" />
+              </div>
+              <div class="blog-content new-style">
+                <ul class="blog-meta">
+                  <li><i class="fa fa-calendar"></i>Decembre 15, 2022</li>
+                </ul>
+                <h3 class="title">
+                  <a href="blog-single.html">Décret N°11/00/21</a>
+                </h3>
+                <div class="desc">
+                  Portant nomination de l'université inter-états congo-cameroun
+                  comme 11ème projet intégrateur de la zone cemac
+                  <ul class="blog-bottom">
+                    <li class="btn-part">
+                      <a class="readon-arrow" href="#">Lire la suite</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="half-bg mt-4">
+          <div class="container">
+            <h2
+              class="text-center py-3 my-3 text-white fw-bold wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              Nos dirigeants
+            </h2>
+            <div class="wow">
+              <div
+                class="u-carousel owl-carousel owl-loaded owl-drag"
+                data-loop="true"
+                data-items="3"
+                data-margin="30"
+                data-autoplay="true"
+                data-hoverpause="true"
+                data-autoplay-timeout="5000"
+                data-smart-speed="800"
+                data-dots="false"
+                data-nav="false"
+                data-nav-speed="false"
+                data-center-mode="false"
+                data-mobile-device="1"
+                data-mobile-device-nav="false"
+                data-mobile-device-dots="false"
+                data-ipad-device="2"
+                data-ipad-device-nav="false"
+                data-ipad-device-dots="false"
+                data-ipad-device2="2"
+                data-ipad-device-nav2="false"
+                data-ipad-device-dots2="false"
+                data-md-device="3"
+                data-md-device-nav="false"
+                data-md-device-dots="false"
+                data-xl-device="4"
+                data-xl-device-nav="false"
+                data-xl-device-dots="false"
+              >
+                <div class="card rounded rounded-4 shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top rounded-top-4"
+                    width="100%"
+                    height="180"
+                    src="assets/no_img.png"
+                    alt=""
+                  />
+                  <div class="card-body bg-primary text-white">
+                    <h5 class="card-title text-uppercase text-center fw-bold">
+                      NOMS ET PRENOM
+                    </h5>
+                    <h6 class="card-subtitle text-uppercase text-center">
+                      Fonction
+                    </h6>
+                    <p class="card-text text-center mt-3 fs-7">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ipsa, modi.Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Ipsa, modi.
+                    </p>
+                  </div>
+                  <div class="card-footer" style="height: 2rem"></div>
+                </div>
+                <div class="card rounded rounded-4 shadow-sm">
+                  <img
+                    class="bd-placeholder-img card-img-top rounded-top-4"
+                    width="100%"
+                    height="180"
+                    src="assets/no_img.png"
+                    alt=""
+                  />
+                  <div class="card-body bg-primary text-white">
+                    <h5 class="card-title text-uppercase text-center fw-bold">
+                      NOMS ET PRENOM
+                    </h5>
+                    <h6 class="card-subtitle text-uppercase text-center">
+                      Fonction
+                    </h6>
+                    <p class="card-text text-center mt-3 fs-7">
+                      Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                      Ipsa, modi.Lorem ipsum, dolor sit amet consectetur
+                      adipisicing elit. Ipsa, modi.
+                    </p>
+                  </div>
+                  <div class="card-footer" style="height: 2rem"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="mt-3">
+          <h1
+            class="u-title u-text-primary wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            Rapport de performances de l'université inter-etats congo-cameroun
+          </h1>
+          <p
+            class="text-justify wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Laboriosam, ratione impedit reiciendis magni qui temporibus
+            accusantium repudiandae perspiciatis dolorum sequi rerum! Nobis
+            maxime odit ipsum, velit alias, laudantium quis, veritatis
+            voluptatem qui tempora perferendis provident facere tenetur nemo
+            dignissimos. Recusandae magni repudiandae beatae placeat harum
+            dolorem eaque illo cumque. Qui provident minima nesciunt hic
+            voluptatum iure enim, voluptate laborum facere maxime? Saepe,
+            consequatur tempore reiciendis porro consectetur recusandae
+            obcaecati modi totam alias excepturi minima consequuntur, velit
+            distinctio adipisci voluptate vitae explicabo dignissimos? Officiis
+            alias iste quod voluptatem at quibusdam eligendi in, recusandae ad
+            deserunt perspiciatis debitis doloremque quaerat nihil vel.provident
+            minima nesciunt hic voluptatum iure enim, voluptate laborum facere
+            maxime? Saepe, consequatur tempore reiciendis porro consectetur
+            recusandae obcaecati modi totam alias excepturi minima consequuntur,
+            velit distinctio adipisci voluptate vitae explicabo dignissimos?
+            Officiis alias iste quod voluptatem at quibusdam eligendi in,
+            recusandae ad deserunt perspiciatis debitis doloremque quaerat nihil
+            vel.
+          </p>
+        </div>
+      </div>
+      <div class="container">
+        <div
+          class="d-flex mt-5 wow slideInLeft"
+          data-wow-delay="200ms"
+          data-wow-duration="1000ms"
+        >
+          <div class="container position-relative mx-0">
+            <div class="row">
+              <div class="widget widget-text-heading u-fa vc-numerique default">
+                <h3 class="title">
+                  Centre de developement numérique universitaire
+                </h3>
+                <div class="description"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        id="cdnu-carousel"
+        class="carousel mt-5 slide mb-6"
+        data-bs-ride="carousel"
+      >
+        <a
+          href="https://www.youtube.com/watch?v=atMUy_bPoQI"
+          class="carousel-play"
+        >
+          <i class="fa fa-play ms-auto me-auto shadow-sm text-white"></i>
+        </a>
+        <div class="carousel-indicators carousel-indicatou-round-full">
+          <div class="mb-4">
+            <button
+              type="button"
+              data-bs-target="#cdnu-carousel"
+              data-bs-slide-to="0"
+              class="active p-1"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#cdnu-carousel"
+              class="p-1"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              class="p-1"
+              data-bs-target="#cdnu-carousel"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/immeuble.png" alt="" class="d-block w-100" />
+          </div>
+
+          <div class="carousel-item active">
+            <img
+              src="assets/immeuble.png"
+              alt=""
+              class="d-block w-100 u-carousel-img"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/immeuble.png"
+              alt=""
+              class="d-block w-100 u-carousel-img"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col mt-5">
+            <h3
+              class="text-center wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              SALLE DE COURS
+            </h3>
+            <p
+              class="text-justify wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+              vel. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Tenetur, vel. Lorem ipsum dolor sit amet consectetur adipisicing
+              elit. Tenetur, vel. Lorem ipsum dolor sit amet consectetur
+              adipisicing elit. Tenetur, vel.
+            </p>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="mt-3">
+                <h1
+                  class="u-title wow fadeInUp"
+                  data-wow-delay="400ms"
+                  data-wow-duration="2000ms"
+                >
+                  Telecharger la brochure complete sur le cdnu en cliquant sur
+                  le dossier
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="mt-3">
+          <div
+            class="d-flex justify-content-center mt-5 wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            <img src="./assets/jagoraLogo.png" alt="" width="200" />
+          </div>
+          <div
+            class="wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            <p class="text-justify mt-4">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim hic
+              quos eum. Voluptates fugiat doloribus quisquam! Reiciendis tenetur
+              in enim ipsum error. Architecto vero quisquam at asperiores itaque
+              suscipit neque fuga qui, consequatur et laudantium corporis harum
+              error excepturi rem doloremque iure maxime fugiat ut aperiam saepe
+              provident ducimus assumenda commodi. Quas cupiditate iste
+              voluptatem praesentium animi possimus quasi aliquid! At
+              consequuntur illo magni veritatis aspernatur facere nobis laborum
+              libero placeat blanditiis, a delectus laudantium quod architecto
+              totam explicabo pariatur perspiciatis cum unde iure sed vitae ex
+              earum consequatur. Iure illo cum possimus ullam ex adipisci
+              temporibus soluta nostrum illum.
+            </p>
+          </div>
+          <div
+            class="wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            <img src="./assets/immeuble.png" style="width: 100%" alt="" />
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer id="u-footer" class="u-footer">
+      <div class="footer-top py-3">
+        <div class="container">
+          <div class="top-flex">
+            <div>
+              <img src="assets/images/flag/cameroon.png" alt="cameroun" />
+            </div>
+            <div>
+              <h4 class="title text-uppercase text-center">
+                Université inter-etats congo-cameroun
+              </h4>
+              <h4 class="subtitle text-uppercase text-center">
+                congo-cameroun inter-state university
+              </h4>
+            </div>
+            <div><img src="assets/images/flag/congo.png" alt="cameroun" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-body py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 footer-widget">
+              <div class="d-flex flex-column">
+                <h4 class="widget-title">
+                  Un Pôle d'Excellence Scientifque et Technologique au Coeur de
+                  l'Afrique centrale
+                </h4>
+                <h4 class="widget-title">
+                  A center of Scientific and Technological Excellence at the
+                  Heart of the central Africa
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+              <h4 class="widget-title">Explorer</h4>
+              <ul class="site-map">
+                <li><a href="#">E-Learning</a></li>
+                <li><a href="#">CDNU</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+              <h4 class="widget-title">Addresse</h4>
+              <ul class="address-widget">
+                <li>
+                  <i class="flaticon-location"></i>
+                  <div class="desc">Nkol-guet, Sangmelima, Cameroun</div>
+                </li>
+                <li>
+                  <i class="flaticon-call"></i>
+                  <div class="desc">
+                    <a href="tel:+237 2 22 47 82 11">+237 2 22 47 82 11</a>
+                  </div>
+                </li>
+                <li>
+                  <i class="flaticon-email"></i>
+                  <div class="desc">
+                    <a href="mailto:infoname@gmail.com">info@uiecc.cm</a> ,
+                    <a href="#">www.uiecc.cm</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row y-middle">
+            <div class="footer-logo md-text-center float-start d-inline-block">
+              <a href="index.html"
+                ><img
+                  src="assets/images/pre-logo-bg-white.png"
+                  width="30"
+                  alt=""
+              /></a>
+            </div>
+            <ul class="footer-social float-end d-inline-block">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/popper.min.js"></script>
+  <script src="assets/wow.min.js"></script>
+  <script src="assets/owl.carousel.min.js"></script>
+  <script src="assets/custom.js"></script>
+</html>

@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="assets/animate.css" />
+    <link rel="stylesheet" type="text/css" href="assets/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="assets/custom.css" />
+    <title>ESIGN</title>
+  </head>
+  <body>
+    <div id="loader" class="loader orange-color">
+      <div class="loader-container">
+        <div class="loader-icon">
+          <img src="assets/images/pre-logo.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <header class="u-header">
+      <div class="topbar-area inner-part d-none d-md-block">
+        <div class="container">
+          <div class="row y-middle">
+            <div class="col-md-7">
+              <ul class="topbar-contact">
+                <li class="border-left-1">
+                  <i class="flaticon-email"></i>
+                  <a href="mailto:info@uiecc.cm">info@uiecc.cm</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 text-right">
+              <ul class="topbar-right">
+                <li class="login-register">
+                  <i class="fa fa-sign-in"></i>
+                  <a href="login.html">Se connecter</a>/<a href="register.html"
+                    >S'enregistrer</a
+                  >
+                </li>
+                <li class="btn-part">
+                  <a class="apply-btn" href="#">Inscrivez-vous</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="u-navbar d-flex justify-content-md-center position-absolute w-100"
+      >
+        <nav class="navbar bg-primary navbar-expand-lg nav-underline">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars fs-2 text-white"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-start offcanvas-shrink"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <div class="d-flex align-items-center">
+                <img src="./assets/logo.png" alt="" class="u-navbar-brand" />
+                <h5
+                  class="offcanvas-title u-navbar-title fs-2 fw-bold ms-2"
+                  id="offcanvasNavbarLabel"
+                >
+                  UIECC
+                </h5>
+              </div>
+              <button
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="close"
+              ></button>
+            </div>
+            <div class="offcanvas-body justify-content-center text-uppercase">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link mx-lg-3"
+                    aria-current="page"
+                    href="./home.html"
+                    >Acceuil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="./home.html">UIECC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active mx-lg-3" href="./esign.html"
+                    >ESIGN</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="./projet.html"
+                    >Projets etudiant</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="#"
+                    >Informations utiles aux usagers</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <form role="search" class="mx-lg-3">
+          <input class="form-control form-control-sm rounded rounded-pill u-nav-search u-input-icon" type="search"
+            placeholder="&#xf002" aria-label="rechercher" >
+        </form> -->
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="u-carousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div
+          class="carousel-indicators carousel-indicatou-left carousel-indicatou-round"
+        >
+          <div class="d-none d-md-flex flex-column me-1">
+            <button
+              type="button"
+              data-bs-target="#u-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#u-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="u-carousel-item"
+              style="background-image: url(assets/images/home/slider-1.jpg)"
+            ></div>
+            <div class="carousel-caption">
+              <div class="container d-flex h-100">
+                <div class="mt-auto">
+                  <h5 class="text-uppercase fs-1 text-white mb-1">
+                    école supérieure internationnale de <br />
+                    génie numérique
+                  </h5>
+                  <p class="fs-4">
+                    "Pôle d'excellence et d'innovations technologiques"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="esign-section intro">
+          <div class="row justify-content-center">
+            <div class="row mt-4">
+              <div
+                class="col-auto wow fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="2000ms"
+              >
+                <div class="float-start me-md-2">
+                  <div
+                    class="card rounded-0 wow fadeInUp"
+                    data-wow-delay="400ms"
+                    data-wow-duration="2000ms"
+                  >
+                    <div
+                      class="d-flex"
+                      style="
+                        width: 100%;
+                        height: 15em;
+                        background-image: url(assets/images/person/person00.jpg);
+                        background-position: center;
+                        background-size: cover;
+                      "
+                    ></div>
+                    <div class="card-body card-title text-white bg-primary">
+                      <h4 class="mb-0 text-white">
+                        <span class="director-name text-capitalize">pr. </span>
+                        <span class="text-uppercase fw-bold"
+                          >ndjodo fouda
+                        </span>
+                        <span class="">Marcel</span>
+                      </h4>
+                      <p class="card-text fw-light fs-5">
+                        Directeur de l'ESIGN
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="mt-sm-2 wow fadeInUp"
+                  data-wow-delay="400ms"
+                  data-wow-duration="2000ms"
+                >
+                  <h2 class="fs-2 fw-semibold pt-sm-3 mb-0">
+                    Mot du Directeur
+                  </h2>
+                  <h2 class="fs-5 fw-light text-muted">
+                    école supérieure internationnale de génie numérique
+                  </h2>
+                  <hr class="my-3" />
+                  <div class="read-more-section">
+                    <p
+                      class="text-justify wow fadeInUp"
+                      data-wow-delay="400ms"
+                      data-wow-duration="2000ms"
+                    >
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Molestiae velit excepturi non quisquam totam quae
+                      repellendus enim deleniti. Sequi quae itaque temporibus
+                      voluptates accusamus minus ratione enim dignissimos dicta
+                      dolores ut ad rem fugit sunt ipsam natus dolor odit
+                      nesciunt, reprehenderit exercitationem libero. Nam iure a
+                      cupiditate eaque vel explicabo ullam ipsum natus, magni
+                      perferendis
+                      <span>...</span>
+                      <span class="d-none">
+                        Sequi quae itaque temporibus voluptates accusamus minus
+                        ratione enim dignissimos dicta dolores ut ad rem fugit
+                        sunt ipsam natus dolor odit nesciunt, reprehenderit
+                        exercitationem libero. Nam iure a cupiditate eaque vel
+                        explicabo ullam ipsum natus, magni perferendis eius
+                        nobis quas maiores non rem numquam deleniti accusantium,
+                        blanditiis odit facilis dolores minima sit illo. Aut,
+                        eos repudiandae numquam maiores eligendi iusto alias cum
+                        animi natus, distinctio quam iure harum rerum quod
+                        reiciendis qui. Perspiciatis odit reprehenderit
+                        repudiandae id accusantium rem, fugit officia
+                        perferendis?Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Molestiae velit excepturi non quisquam
+                        totam quae repellendus enim deleniti. Sequi quae itaque
+                        temporibus voluptates accusamus minus ratione enim
+                        dignissimos dicta dolores ut ad rem fugit sunt ipsam
+                        natus dolor odit nesciunt, reprehenderit exercitationem
+                        libero. Nam iure a cupiditate eaque vel explicabo ullam
+                        ipsum natus, magni perferendis eius nobis quas maiores
+                        non rem numquam deleniti accusantium, blanditiis odit
+                        facilis dolores minima sit illo. Aut, eos repudiandae
+                        numquam maiores eligendi iusto alias cum animi natus,
+                        distinctio quam iure harum rerum quod reiciendis qui.
+                        Perspiciatis odit reprehenderit repudiandae id
+                        accusantium rem, fugit officia perferendis?
+                      </span>
+                      <a role="button" class="read-more-btn">lire la suite</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="esign-section program">
+          <div
+            class="widget widget-text-heading u-fa vc-book default wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            <h3 class="title">Programme Académique</h3>
+            <div class="description"></div>
+          </div>
+          <div class="widget-title-spacing"></div>
+          <div class="row justify-content-around">
+            <div class="col-md-12 col-lg-6 col-xl-12">
+              <div
+                class="card mb-3 rounded-0 wow fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="2000ms"
+              >
+                <div class="row g-0">
+                  <div class="col-12 col-md-12 col-xl-4 text-center">
+                    <h3 class="fw-bolder p-0 m-0" style="font-size: 4rem">
+                      2<span class="text-muted"> + </span>1
+                    </h3>
+                    <h3 class="p-0 m-0 mb-2 text-muted" style="font-size: 1rem">
+                      (ans)
+                    </h3>
+                  </div>
+                  <div
+                    class="col-12 col-md-12 col-xl-8 card-body text-center bg-primary text-white"
+                  >
+                    <h5 class="card-title fw-bold p-3">
+                      Acquisition du socle scientifique, technique et
+                      entrepreneurial de base
+                    </h5>
+                    <p>
+                      Acquisition du socle scientifique, technique et
+                      entrepreneurial de base nécessaire au développement d'une
+                      compréhension approfondie des entreprises, produits et
+                      services numériques suivant les trois orientations
+                      professionnelles de l'école : la communication visuelle
+                      (CDN), le management (INS), les systèmes numériques (ISN).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 col-lg-6 col-xl-12">
+              <div
+                class="card mb-3 rounded-0 wow fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="2000ms"
+              >
+                <div class="row g-0">
+                  <div class="col-12 col-md-12 col-xl-4 text-center">
+                    <h3 class="fw-bolder p-0 m-0" style="font-size: 4rem">2</h3>
+                    <h3 class="p-0 m-0 mb-2 text-muted" style="font-size: 1rem">
+                      (ans)
+                    </h3>
+                  </div>
+                  <div
+                    class="col-12 col-md-12 col-xl-8 card-body text-center bg-warning"
+                  >
+                    <h5 class="card-title fw-bold p-3">
+                      Acquisition du socle de compétences professionnelles
+                    </h5>
+                    <p>
+                      Acquisition du socle de compétences professionnelles de
+                      l'Ingénieur de Génie Numérique, approfondissement des
+                      compétences scientifiques et techniques et préparation de
+                      l'insertion professionelle suivant les trois orientations
+                      professionnelles de l'école : la communication visuelle
+                      (CDN), le management (INS), les systèmes numériques (ISN).
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="bg-primary py-5 wow fadeInUp"
+        data-wow-delay="400ms"
+        data-wow-duration="2000ms"
+      >
+        <div class="widget widget-text-heading u-fa vc-cap default text-white">
+          <h3 class="title text-white">Parcours De Formation</h3>
+          <div class="description"></div>
+        </div>
+        <div class="widget-title-spacing"></div>
+      </div>
+      <div class="container">
+        <div class="esign-section parcours text-center">
+          <div class="row justify-content-around">
+            <div
+              class="d-flex flex-row col-12 my-5 wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <div
+                class="d-flex align-items-center justify-content-center rounded-circle my-1 bg-warning"
+                style="height: 180px; width: 180px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle bg-light"
+                  style="height: 170px; width: 170px"
+                >
+                  <div
+                    class="rounded-circle"
+                    style="
+                      height: 160px;
+                      width: 160px;
+                      background-image: url(assets/images/esign/background/cdn2.jpg);
+                      background-size: cover;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center fw-bolder text-warning pb-2"
+                  style="height: 110px"
+                >
+                  <h5 class="fs-3 fw-bolder m-0 p-0 mt-auto text-warning">
+                    CREATION ET DESIGN NUMERIQUE
+                  </h5>
+                </div>
+                <div class="col-12 position-relative">
+                  <div
+                    class="col-12 position-absolute top-50 start-50 translate-middle bg-warning"
+                    style="height: 5px"
+                  ></div>
+                </div>
+                <div class="col-12 justify-content-center border-4 pt-3">
+                  <div
+                    class="d-flex flex-row-reverse col-10 text-warning text-end me-4"
+                  >
+                    <div class="col fs-5 d-none d-md-flex justify-content-end">
+                      <ul class="ul-list ul-in text-end">
+                        <li>Production Audiovisuelle et Numérique</li>
+                        <li>Infographie, Graphisme et Multimédia</li>
+                        <li>Animation, Réalisation 3D et Effets Visuels</li>
+                        <li>Ergonomie, Design d'Interaction et Web Design</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row d-sm-flex d-md-none wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <div class="col fs-5">
+                <ul class="ul-list ul-in text-end text-warning">
+                  <li>Production Audiovisuelle et Numérique</li>
+                  <li>Infographie, Graphisme et Multimédia</li>
+                  <li>Animation, Réalisation 3D et Effets Visuels</li>
+                  <li>Ergonomie, Design d'Interaction et Web Design</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row-reverse col-12 my-5 wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <div
+                class="d-flex align-items-center justify-content-center rounded-circle my-1 bg-danger"
+                style="height: 180px; width: 180px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle bg-light"
+                  style="height: 170px; width: 170px"
+                >
+                  <div
+                    class="rounded-circle"
+                    style="
+                      height: 160px;
+                      width: 160px;
+                      background-image: url(assets/images/esign/background/ins2.jpg);
+                      background-size: cover;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="col p-0 m-0">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center fw-bolder text-danger pb-2"
+                  style="height: 110px"
+                >
+                  <h5 class="fs-3 fw-bolder m-0 p-0 mt-auto text-danger">
+                    INGENIEURIE NUMERIQUE SOCIOTECHNIQUE
+                  </h5>
+                </div>
+                <div class="col-12 position-relative">
+                  <div
+                    class="col-12 position-absolute top-50 start-50 translate-middle bg-danger"
+                    style="height: 5px"
+                  ></div>
+                </div>
+                <div class="d-flex col-12 justify-content-start pt-3">
+                  <div
+                    class="d-flex flex-row col-10 text-danger text-start ms-4"
+                  >
+                    <div
+                      class="col fs-5 d-none d-md-flex justify-content-start"
+                    >
+                      <ul class="ul-list ul-out">
+                        <li>Ingénierie économique et juridique du numérique</li>
+                        <li>Management de l'information</li>
+                        <li>Ingénierie des médias</li>
+                        <li>Expertise juridique et économique numérique</li>
+                        <li>Management de la connaissance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row d-sm-flex d-md-none wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <div class="col fs-5 text-start">
+                <ul class="ul-list ul-out text-danger">
+                  <li>Ingénierie économique et juridique du numérique</li>
+                  <li>Management de l'information</li>
+                  <li>Ingénierie des médias</li>
+                  <li>Expertise juridique et économique numérique</li>
+                  <li>Management de la connaissance</li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-row col-12 my-5 wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <div
+                class="d-flex align-items-center justify-content-center rounded-circle my-1 bg-primary"
+                style="height: 180px; width: 180px"
+              >
+                <div
+                  class="d-flex align-items-center justify-content-center rounded-circle bg-light"
+                  style="height: 170px; width: 170px"
+                >
+                  <div
+                    class="rounded-circle"
+                    style="
+                      height: 160px;
+                      width: 160px;
+                      background-image: url(assets/images/esign/background/isn3.png);
+                      background-size: cover;
+                    "
+                  ></div>
+                </div>
+              </div>
+              <div class="col">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center fw-bolder text-primary pb-2"
+                  style="height: 110px"
+                >
+                  <h5 class="fs-3 fw-bolder m-0 p-0 mt-auto text-success">
+                    INGENIEURIE DES SYSTEMES NUMERIQUES
+                  </h5>
+                </div>
+                <div class="col-12 position-relative">
+                  <div
+                    class="col-12 position-absolute top-50 start-50 translate-middle bg-primary"
+                    style="height: 5px"
+                  ></div>
+                </div>
+                <div class="d-flex col-12 justify-content-end pt-3">
+                  <div
+                    class="d-flex flex-row-reverse col-10 text-primary text-end me-4"
+                  >
+                    <div
+                      class="col-10 fs-5 d-none d-md-flex justify-content-end"
+                    >
+                      <ul class="ul-list ul-in">
+                        <li>
+                          Ingénierie des Logiciels et des Systèmes d'Information
+                        </li>
+                        <li>Systèmes Numériques Mobiles et Embarqués</li>
+                        <li>Réseaux et Systèmes Numériques Communicants</li>
+                        <li>Ingénierie Mathématique et Informatique</li>
+                        <li>Sécurité et Sûreté des Systèmes Numériques</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="row d-sm-flex d-md-none wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <div class="col fs-5 text-start">
+                <ul class="ul-list ul-in text-success">
+                  <li>
+                    Ingénierie des Logiciels et des Systèmes d'Information
+                  </li>
+                  <li>Systèmes Numériques Mobiles et Embarqués</li>
+                  <li>Réseaux et Systèmes Numériques Communicants</li>
+                  <li>Ingénierie Mathématique et Informatique</li>
+                  <li>Sécurité et Sûreté des Systèmes Numériques</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid bg-success">
+        <div class="esign-section diplome">
+          <div class="row justify-content-center">
+            <div class="col-md-8 bg-light p-0">
+              <div
+                class="d-flex flex-column m-3 justify-content-center position-relative align-items-center border border-2 border-success text-center"
+              >
+                <div class="col-12">
+                  <img
+                    class="my-2"
+                    src="assets/images/esign/icon/certificate-degree-icon.svg"
+                    alt="SVG Image"
+                    style="width: 50px; height: 50px"
+                  />
+
+                  <h5 class="fs-4 text-uppercase">
+                    Diplôme d'ingénieur / Master of engineering
+                  </h5>
+                  <p class="">
+                    Titre :
+                    <span class="fs-4 text-decoration-underline"
+                      >Ingénieur en Génie Numérique</span
+                    >
+                  </p>
+                </div>
+                <div class="col-12">
+                  <div class="col">
+                    <p>
+                      <small
+                        >Lorem ipsum dolor sit amet consectetur adipisicing
+                        elit. Iusto aliquid minima sint accusantium, quisquam
+                        blanditiis numquam tempora cum explicabo exercitationem
+                        cupiditate, alias excepturi quae. Error aperiam modi
+                        velit totam rerum!</small
+                      >
+                    </p>
+                  </div>
+                  <div class="col-10 position-relative">
+                    <div
+                      class="position-absolute top-0 start-100 translate-middle text-success"
+                    >
+                      <img
+                        src="assets/images/esign/icon/certified.png"
+                        width="100px"
+                        height="100px"
+                        alt="Certified"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="esign-section modalite">
+          <div
+            class="widget widget-text-heading u-fa vc-file default wow fadeInUp"
+            data-wow-delay="400ms"
+            data-wow-duration="2000ms"
+          >
+            <h3 class="title">Les ModalitéS D'Inscription</h3>
+            <div class="description"></div>
+          </div>
+          <div class="widget-title-spacing"></div>
+          <div class="row justify-content-center">
+            <div
+              class="col-10 wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolores amet autem neque exercitationem delectus quia nesciunt
+                sint? Consectetur soluta aperiam quaerat quis animi quae
+                cupiditate, quibusdam delectus iste nisi alias.
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Dolores amet autem neque exercitationem delectus quia nesciunt
+                sint? Consectetur soluta aperiam quaerat quis animi quae
+                cupiditate, quibusdam delectus iste nisi alias.
+              </p>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div
+              class="col-12 text-center text-success my-2 wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <h5>TELECHARGER LE DOCUMENT EN CLIQUANT SUR LE DOSSIER</h5>
+              <div class="text-success">
+                <a
+                  target="_blank"
+                  href="./assets/files/fiche-inscription.jpg"
+                  class="link-success link-underline link-underline-opacity-0"
+                >
+                  <svg class="bi" width="50" height="50" fill="currentColor">
+                    <use
+                      xlink:href="./assets/icons/bootstrap-icons.svg#file-earmark-arrow-down"
+                    />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="esign-section aeesign">
+          <div
+            class="d-flex flex-column justify-content-center align-items-center py-5"
+          >
+            <div
+              class="widget widget-text-heading u-fa vc-people default wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+            >
+              <h3 class="title">
+                ASSOCIATION DES ETUDIANTS DE L'éCOLE SUPERIEUR INTERNATIONALE DE
+                GENIE NUMERIQUE
+              </h3>
+              <div class="description">AEESIGN</div>
+            </div>
+            <div class="widget-title-spacing"></div>
+          </div>
+          <div class="row">
+            <div
+              class="col-12 wow fadeInUp"
+              data-wow-delay="400ms"
+              data-wow-duration="2000ms"
+              style="text-align: justify"
+            >
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Adipisci officia numquam nisi esse eligendi consequatur corrupti
+                pariatur corporis repellendus, asperiores, iusto quos explicabo
+                error excepturi deleniti debitis delectus ratione vel! Lorem
+                ipsum dolor sit, amet consectetur adipisicing elit. Adipisci
+                officia numquam nisi esse eligendi consequatur corrupti pariatur
+                corporis repellendus, asperiores, iusto quos explicabo error
+                excepturi deleniti debitis delectus ratione vel! Lorem ipsum
+                dolor sit, amet consectetur adipisicing elit. Adipisci officia
+              </p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <div class="esign-sub-section bureau">
+                <div
+                  class="d-flex flex-column justify-content-center align-items-center text-center py-3"
+                >
+                  <div
+                    class="col text-black wow fadeInUp"
+                    data-wow-delay="400ms"
+                    data-wow-duration="2000ms"
+                  >
+                    <h4 class="mb-0">BUREAU EXECUTIF</h4>
+                    <span>Année 2022-2023</span>
+                  </div>
+                  <div
+                    class="col bg-dark-subtle justify-content-center"
+                    style="height: 3px"
+                  ></div>
+                  <div class="container">
+                    <div
+                      class="u-carousel owl-carousel owl-loaded owl-drag"
+                      data-loop="true"
+                      data-items="3"
+                      data-margin="30"
+                      data-autoplay="true"
+                      data-hoverpause="true"
+                      data-autoplay-timeout="5000"
+                      data-smart-speed="800"
+                      data-dots="false"
+                      data-nav="false"
+                      data-nav-speed="false"
+                      data-center-mode="false"
+                      data-mobile-device="1"
+                      data-mobile-device-nav="false"
+                      data-mobile-device-dots="false"
+                      data-ipad-device="2"
+                      data-ipad-device-nav="false"
+                      data-ipad-device-dots="false"
+                      data-ipad-device2="2"
+                      data-ipad-device-nav2="false"
+                      data-ipad-device-dots2="false"
+                      data-md-device="3"
+                      data-md-device-nav="false"
+                      data-md-device-dots="false"
+                      data-xl-device="4"
+                      data-xl-device-nav="false"
+                      data-xl-device-dots="false"
+                    >
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          src="./assets/images/esign/icon.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body text-center">
+                          <h5 class="card-title">NOMS ET PRENOMS</h5>
+                          <p class="card-text">FONCTIONS</p>
+                        </div>
+                      </div>
+                      <div class="card w-100" style="width: 18rem">
+                        <img
+                          src="./assets/images/esign/icon.png"
+                          class="card-img-top"
+                          alt="..."
+                        />
+                        <div class="card-body text-center">
+                          <h5 class="card-title">NOMS ET PRENOMS</h5>
+                          <p class="card-text">FONCTIONS</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="u-footer" class="u-footer">
+      <div class="footer-top py-3">
+        <div class="container">
+          <div class="top-flex">
+            <div>
+              <img src="assets/images/flag/cameroon.png" alt="cameroun" />
+            </div>
+            <div>
+              <h4 class="title text-uppercase text-center">
+                Université inter-etats congo-cameroun
+              </h4>
+              <h4 class="subtitle text-uppercase text-center">
+                congo-cameroun inter-state university
+              </h4>
+            </div>
+            <div><img src="assets/images/flag/congo.png" alt="cameroun" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-body py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 footer-widget">
+              <div class="d-flex flex-column">
+                <h4 class="widget-title">
+                  Un Pôle d'Excellence Scientifque et Technologique au Coeur de
+                  l'Afrique centrale
+                </h4>
+                <h4 class="widget-title">
+                  A center of Scientific and Technological Excellence at the
+                  Heart of the central Africa
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+              <h4 class="widget-title">Explorer</h4>
+              <ul class="site-map">
+                <li><a href="#">E-Learning</a></li>
+                <li><a href="#">CDNU</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+              <h4 class="widget-title">Addresse</h4>
+              <ul class="address-widget">
+                <li>
+                  <i class="flaticon-location"></i>
+                  <div class="desc">Nkol-guet, Sangmelima, Cameroun</div>
+                </li>
+                <li>
+                  <i class="flaticon-call"></i>
+                  <div class="desc">
+                    <a href="tel:+237 2 22 47 82 11">+237 2 22 47 82 11</a>
+                  </div>
+                </li>
+                <li>
+                  <i class="flaticon-email"></i>
+                  <div class="desc">
+                    <a href="mailto:infoname@gmail.com">info@uiecc.cm</a> ,
+                    <a href="#">www.uiecc.cm</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="d-flex">
+            <div class="footer-logo md-text-center float-start d-inline-block">
+              <a href="index.html"
+                ><img
+                  src="assets/images/pre-logo-bg-white.png"
+                  width="30"
+                  alt=""
+              /></a>
+            </div>
+            <ul class="footer-social ms-auto">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/popper.min.js"></script>
+  <script src="assets/wow.min.js"></script>
+  <script src="assets/owl.carousel.min.js"></script>
+  <script src="assets/custom.js"></script>
+</html>

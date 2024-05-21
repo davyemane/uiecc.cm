@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon.css" />
+    <link rel="stylesheet" type="text/css" href="assets/animate.css" />
+    <link rel="stylesheet" type="text/css" href="assets/owl.carousel.css" />
+    <link rel="stylesheet" type="text/css" href="assets/custom.css" />
+    <link rel="stylesheet" type="text/css" href="assets/responsive.css" />
+    <title>ESIGN</title>
+  </head>
+  <body>
+    <div id="loader" class="loader orange-color">
+      <div class="loader-container">
+        <div class="loader-icon">
+          <img src="assets/images/pre-logo.png" alt="" />
+        </div>
+      </div>
+    </div>
+    <header class="u-header">
+      <div class="topbar-area inner-part d-none d-md-block">
+        <div class="container">
+          <div class="row y-middle">
+            <div class="col-md-7">
+              <ul class="topbar-contact">
+                <li class="border-left-1">
+                  <i class="flaticon-email"></i>
+                  <a href="mailto:info@uiecc.cm">info@uiecc.cm</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-5 text-right">
+              <ul class="topbar-right">
+                <li class="login-register">
+                  <i class="fa fa-sign-in"></i>
+                  <a href="login.html">Se connecter</a>/<a href="register.html"
+                    >S'enregistrer</a
+                  >
+                </li>
+                <li class="btn-part">
+                  <a class="apply-btn" href="#">Inscrivez-vous</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="u-navbar d-flex justify-content-md-center position-absolute w-100"
+      >
+        <nav class="navbar bg-primary navbar-expand-lg nav-underline">
+          <button
+            class="navbar-toggler"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-bars fs-2 text-white"></i>
+          </button>
+          <div
+            class="offcanvas offcanvas-start offcanvas-shrink"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <div class="d-flex align-items-center">
+                <img src="./assets/logo.png" alt="" class="u-navbar-brand" />
+                <h5
+                  class="offcanvas-title u-navbar-title fs-2 fw-bold ms-2"
+                  id="offcanvasNavbarLabel"
+                >
+                  UIECC
+                </h5>
+              </div>
+              <button
+                class="btn-close"
+                data-bs-dismiss="offcanvas"
+                aria-label="close"
+              ></button>
+            </div>
+            <div class="offcanvas-body justify-content-center text-uppercase">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active mx-lg-3"
+                    aria-current="page"
+                    href="./home.html"
+                    >Acceuil</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="./home.html">UIECC</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="./esign.html">ESIGN</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active mx-lg-3" href="#"
+                    >Projets étudiants</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link mx-lg-3" href="#"
+                    >Informations utiles aux usagers</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!-- <form role="search" class="mx-lg-3">
+          <input class="form-control form-control-sm rounded rounded-pill u-nav-search u-input-icon" type="search"
+            placeholder="&#xf002" aria-label="rechercher" >
+        </form> -->
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div id="u-carousel" class="carousel slide mb-6" data-bs-ride="carousel">
+        <div
+          class="carousel-indicators carousel-indicatou-left carousel-indicatou-round"
+        >
+          <div class="d-none d-md-flex flex-column me-1">
+            <button
+              type="button"
+              data-bs-target="#u-carousel"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#u-carousel"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+          </div>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div
+              class="u-carousel-item"
+              style="background-image: url(assets/images/projet/slider1.png)"
+            ></div>
+            <div class="carousel-caption">
+              <div class="container d-flex h-100">
+                <div class="mt-auto">
+                  <h5 class="text-uppercase fs-1 text-white mb-1">
+                   Projets étudiants
+                  </h5>
+                  <p class="fs-4">
+                    Bienvenue à l'apprentisage appliquée
+                    par projets"
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5">
+        <h1
+          class="u-text-primary text-uppercase text-center fs-1 fw-bold mt-5 wow fadeInUp"
+          data-wow-delay="400ms"
+          data-wow-duration="2000ms"
+        >
+          Digital Forest
+        </h1>
+
+        <p
+          class="wow fadeInUp"
+          data-wow-delay="400ms"
+          data-wow-duration="2000ms"
+        >
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio
+          veritatis dolorum enim expedita cum repudiandae odit suscipit esse
+          minima illo reprehenderit totam modi excepturi rerum qui magnam,
+          laudantium eligendi quod? Lorem ipsum dolor sit amet, consectetur
+          adipisicing elit. Odio veritatis dolorum enim expedita cum repudiandae
+          odit suscipit esse minima illo reprehenderit totam modi excepturi
+          rerum qui magnam, laudantium eligendi quod?
+        </p>
+        <div
+          class="wow fadeInUp"
+          data-wow-delay="400ms"
+          data-wow-duration="2000ms"
+        >
+          <img src="./assets/immeuble.png" style="width: 100%" alt="" />
+        </div>
+      </div>
+      <div class="widget widget-text-heading u-fa vc-projet default mt-5">
+        <h3 class="title">Projets étudiants</h3>
+        <div class="description"></div>
+      </div>
+      <div class="widget-title-spacing"></div>
+      <div
+        class="rs-popular-courses style1 course-view-style orange-color rs-inner-blog white-bg pt-6 pb-6 mb-3"
+      >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 order-last">
+              <div class="widget-area wow">
+                <div
+                  class="search-widget mb-5 wow fadeInUp"
+                  data-wow-delay="400ms"
+                  data-wow-duration="2000ms"
+                >
+                  <h3 class="widget-title">Recherche</h3>
+                  <div class="search-wrap">
+                    <input
+                      type="search"
+                      placeholder="Recherche..."
+                      name=""
+                      class="search-input"
+                      value=""
+                    />
+                    <button type="submit" value="Search">
+                      <i class="flaticon-search"></i>
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="widget-archives mb-5 wow fadeInUp"
+                  data-wow-delay="400ms"
+                  data-wow-duration="2000ms"
+                >
+                  <h3 class="widget-title">Filtre par</h3>
+                  <div class="filter-widget">
+                    <!-- Skills Form -->
+                    <div class="filter-form">
+                      <form method="post" action="">
+                        <div class="single-filter mb-3">
+                          <h5 class="mb-1">Domaine</h5>
+                          <!-- Radio Box -->
+                          <div class="radio-box form-group">
+                            <input
+                              type="radio"
+                              name="skill"
+                              id="type1"
+                              value="beginer"
+                              checked
+                            />
+                            <label for="type1">Santé</label>
+                          </div>
+
+                          <!-- Radio Box -->
+                          <div class="radio-box form-group">
+                            <input
+                              type="radio"
+                              name="skill"
+                              id="type2"
+                              value="intermediate"
+                            />
+                            <label for="type2">Domotique</label>
+                          </div>
+
+                          <!-- Radio Box -->
+                          <div class="radio-box form-group">
+                            <input
+                              type="radio"
+                              name="skill"
+                              id="type3"
+                              value="expert"
+                            />
+                            <label for="type3">Education</label>
+                          </div>
+                        </div>
+                        <div class="form-group mb-0 mt-1">
+                          <input class="readon2" type="submit" value="validé" />
+                        </div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-8 pr-50 md-pr-15">
+              <div
+                class="course-search-part wow fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="2000ms "
+              >
+                <div class="course-view-part">
+                  <div class="view-icons">
+                    <a href="#" class="view-grid mr-10"
+                      ><i class="fa fa-th-large"></i
+                    ></a>
+                    <a href="#" class="view-list"
+                      ><i class="fa fa-list-ul"></i
+                    ></a>
+                  </div>
+                  <div class="view-text">Affichage 1-9 de 11 résultats</div>
+                </div>
+              </div>
+              <div class="course-part clearfix">
+                <div class="courses-item">
+                  <div class="img-part">
+                    <img src="assets/images/projet/1.jpg" alt="" />
+                  </div>
+                  <div class="content-part">
+                    <ul class="meta-part">
+                      <li><span class="price">Education</span></li>
+                      <li>
+                        <a class="categorie title fw-bold text-dark" href="#"
+                          >LaBoussole</a
+                        >
+                      </li>
+                    </ul>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <div class="bottom-part">
+                      <div class="btn-part">
+                        <a href="#"><i class="flaticon-right-arrow"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="courses-item right">
+                  <div class="img-part">
+                    <img src="assets/images/projet/1.jpg" alt="" />
+                  </div>
+                  <div class="content-part">
+                    <ul class="meta-part">
+                      <li><span class="price bg-info">Sante</span></li>
+                      <li>
+                        <a class="categorie title fw-bold text-dark" href="#"
+                          >Luzabu E-hospital</a
+                        >
+                      </li>
+                    </ul>
+                    <p class="">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Velit, at
+                    </p>
+                    <div class="bottom-part">
+                      <div class="btn-part">
+                        <a href="#"><i class="flaticon-right-arrow"></i></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="pagination-area orange-color text-center mt-md-3 wow fadeInUp"
+                data-wow-delay="400ms"
+                data-wow-duration="2000ms"
+              >
+                <ul class="pagination-part">
+                  <li class="active"><a href="#">1</a></li>
+                  <li><a href="#">2</a></li>
+                  <li>
+                    <a href="#">Next <i class="fa fa-long-arrow-right"></i></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="u-footer" class="u-footer">
+      <div class="footer-top py-3">
+        <div class="container">
+          <div class="top-flex">
+            <div>
+              <img src="assets/images/flag/cameroon.png" alt="cameroun" />
+            </div>
+            <div>
+              <h4 class="title text-uppercase text-center">
+                Université inter-etats congo-cameroun
+              </h4>
+              <h4 class="subtitle text-uppercase text-center">
+                congo-cameroun inter-state university
+              </h4>
+            </div>
+            <div><img src="assets/images/flag/congo.png" alt="cameroun" /></div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-body py-3">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-12 col-sm-12 footer-widget">
+              <div class="d-flex flex-column">
+                <h4 class="widget-title">
+                  Un Pôle d'Excellence Scientifque et Technologique au Coeur de
+                  l'Afrique centrale
+                </h4>
+                <h4 class="widget-title">
+                  A center of Scientific and Technological Excellence at the
+                  Heart of the central Africa
+                </h4>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+              <h4 class="widget-title">Explorer</h4>
+              <ul class="site-map">
+                <li><a href="#">E-Learning</a></li>
+                <li><a href="#">CDNU</a></li>
+              </ul>
+            </div>
+
+            <div class="col-lg-3 col-md-12 col-sm-12 footer-widget">
+              <h4 class="widget-title">Addresse</h4>
+              <ul class="address-widget">
+                <li>
+                  <i class="flaticon-location"></i>
+                  <div class="desc">Nkol-guet, Sangmelima, Cameroun</div>
+                </li>
+                <li>
+                  <i class="flaticon-call"></i>
+                  <div class="desc">
+                    <a href="tel:+237 2 22 47 82 11">+237 2 22 47 82 11</a>
+                  </div>
+                </li>
+                <li>
+                  <i class="flaticon-email"></i>
+                  <div class="desc">
+                    <a href="mailto:infoname@gmail.com">info@uiecc.cm</a> ,
+                    <a href="#">www.uiecc.cm</a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="d-flex">
+            <div class="footer-logo md-text-center float-start d-inline-block">
+              <a href="index.html">
+                <img
+                  src="assets/images/pre-logo-bg-white.png"
+                  width="30"
+                  alt=""
+                />
+              </a>
+            </div>
+            <ul class="footer-social ms-auto">
+              <li>
+                <a href="#"><i class="fa fa-facebook"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="assets/jquery.min.js"></script>
+  <script src="assets/bootstrap.bundle.min.js"></script>
+  <script src="assets/popper.min.js"></script>
+  <script src="assets/wow.min.js"></script>
+  <script src="assets/owl.carousel.min.js"></script>
+  <script src="assets/custom.js"></script>
+</html>
